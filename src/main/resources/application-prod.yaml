@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: user-center
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    username: root
+    password: liuyu
+    url: jdbc:mysql://127.0.0.1:3306/liuyu?useSSL=false
+server:
+  address: 0.0.0.0
+
